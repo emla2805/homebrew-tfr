@@ -2,16 +2,16 @@
 class Tfr < Formula
   desc "A lightweight commandline TFRecords processor"
   homepage "https://github.com/emla2805/tfr"
-  version "0.1-beta.4"
+  version "0.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/emla2805/tfr/releases/download/v0.1-beta.4/tfr_0.1-beta.4_darwin_amd64.tar.gz"
-    sha256 "52e3ee1c9305c0769429d1caf784de513d0d3ab58d8ec448d02031f560d39a1a"
+    url "https://github.com/emla2805/tfr/releases/download/v0.1.0/tfr_0.1.0_darwin_amd64.tar.gz"
+    sha256 "9d9f30f787ea720fa27f6135f8202c8225c3d3cf0475125ca826d9df13548b72"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/emla2805/tfr/releases/download/v0.1-beta.4/tfr_0.1-beta.4_linux_amd64.tar.gz"
-    sha256 "fd9118398a2ec825676e156cde731f303b8f1cba537b6405cbddb2ec324484a0"
+    url "https://github.com/emla2805/tfr/releases/download/v0.1.0/tfr_0.1.0_linux_amd64.tar.gz"
+    sha256 "7e34b1e5430f674cc0dec5e4c5c9dde8fa456728602b94f4919a39bbc86316c7"
   end
 
   def install
